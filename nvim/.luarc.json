@@ -1,7 +1,5 @@
 {
     "diagnostics.globals": [
-        "vim",
-        "set_cs",
-        "swap_cs"
+        "vim"
     ]
 }
