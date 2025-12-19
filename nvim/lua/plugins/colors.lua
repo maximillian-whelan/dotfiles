@@ -3,7 +3,8 @@ function CMP(color)
     colorMap["cat"] = "catppuccin"
     colorMap["ef"] = "everforest"
     colorMap["paper"] = "papercolor"
-    vim.cmd.colorscheme(colorMap[color] or colorMap["ef"])
+    colorMap["gruv"] = "gruvbox"
+    vim.cmd.colorscheme(colorMap[color] or colorMap["gruv"])
 end
 
 return {
@@ -11,4 +12,5 @@ return {
     { "scottmckendry/cyberdream.nvim", lazy = false,        priority = 1000 },
     { "sainnhe/everforest",            lazy = false,        priority = 1000 },
     { "NLKNguyen/papercolor-theme",    lazy = false,        priority = 1000 },
+    { "morhetz/gruvbox",    lazy = false,        priority = 1000 },
 }

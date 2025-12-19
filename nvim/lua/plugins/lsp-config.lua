@@ -26,6 +26,7 @@ return {
             end, { desc = "Expand an Error into a float" })
             vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
             vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
+            vim.keymap.set("n", "<leader>rvn", vim.lsp.buf.rename, {})
         end,
     },
 }
