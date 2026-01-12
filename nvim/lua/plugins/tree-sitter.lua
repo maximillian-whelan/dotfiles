@@ -10,5 +10,8 @@ return {
             highlight = { enable = true },
         })
 
+		vim.keymap.set("n", "<leader>fsl", ":Neotree filesystem reveal left<CR>, {}")
+
+		vim.keymap.set("n", "<leader>fsr", ":Neotree filesystem reveal right<CR>, {}")
     end,
 }
